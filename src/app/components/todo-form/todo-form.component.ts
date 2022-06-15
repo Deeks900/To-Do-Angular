@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Todo} from "./../../model/Todo";
 import {v4 as uuidv4} from "uuid";
+
+// Importing the things from the  service folder
 import { TodoService } from "./../../service/todo.service";
 
 @Component({

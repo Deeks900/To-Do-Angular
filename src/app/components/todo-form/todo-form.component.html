@@ -1,5 +1,7 @@
 <!-- Two way binding using ngModel.Now this says that this input will be handling this value. -->
+
 <div class="input-group mb-3 w-100">
+    <!-- We are using template based forms here -->
     <input type="text" name="todo"
     placeholder = "Enter a to do"
     class = "form-control"
@@ -9,6 +11,8 @@
     <div class="input-group append">
         <button 
         (click)="handleAdd()"
-        class="btn btn-primary">Add ToDo</button>
+        class="btn btn-primary">
+         Add ToDo
+    </button>
     </div>
 </div>

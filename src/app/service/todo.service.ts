@@ -1,8 +1,10 @@
 // Having the entire Bussiness Logic
 import { Injectable } from '@angular/core';
+import { faLevelDown } from '@fortawesome/free-solid-svg-icons';
 import { of } from 'rxjs';
 import { Todo } from "./../model/Todo";
 
+// Injectables allow you to inject the content at root level.So that everyone can access this content
 @Injectable({
   providedIn: 'root'
 })

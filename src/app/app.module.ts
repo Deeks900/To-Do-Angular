@@ -1,3 +1,4 @@
+// NgModule is a decorator for a angular class
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
